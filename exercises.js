@@ -68,7 +68,13 @@ console.log(sum);
  * Console.log `difference` to test your code.
 */ 
 
+function subtract(num1, num2){
+	return num1-num2
+}
 
+var sum=subtract(1,2);
+
+console.log(sum);
 
 /*
  * #4
@@ -84,7 +90,13 @@ console.log(sum);
  * Console.log `product` to test your code.
 */
 
+function multiply(num1, num2){
+	return num1*num2
+}
 
+var sum=multiply(1,2);
+
+console.log(sum);
 
 /*
  * #5
@@ -100,7 +112,13 @@ console.log(sum);
  * Console.log `quotient` to test your code.
 */
 
+function divide(num1, num2){
+	return num1/num2
+}
 
+var sum=divide(1,2);
+
+console.log(sum);
 
 /*
  * #6
@@ -114,7 +132,13 @@ console.log(sum);
  * Console.log your result.
 */
 
+function checkSum(x){
+	return "Mariah Carey has been married `x` amount of times."
+}
 
+var sum=checkSum(403);
+
+console.log(sum);
 
 /*
  * #7
@@ -128,6 +152,13 @@ console.log(sum);
  * Console.log your results.
 */ 
 
+function checkDifference(x){
+	return "Last night I dreamt that I ate `x` Taco Bell soft tacos."
+}
+
+var sum=checkDifference(7430);
+
+console.log(sum);
 
 
 /*
